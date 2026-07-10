@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Vazirmatn", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer utilities {
+  @media print {
+    body {
+      background: white !important;
+      color: black !important;
+      font-size: 12pt;
+    }
+    .no-print {
+      display: none !important;
+    }
+    .print-container {
+      display: block !important;
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      box-shadow: none !important;
+    }
+    .print-page {
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 1.5cm !important;
+      border: none !important;
+      box-shadow: none !important;
+      background: white !important;
+    }
+  }
+}
+

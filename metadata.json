@@ -1,0 +1,6 @@
+{
+  "name": "Forensic Accounting Expert Report Generator",
+  "description": "سامانه هوشمند تنظیم گزارش کارشناسی رسمی حسابداری و حسابرسی دادگستری به همراه استخراج دست‌نویس، جدول تراکنش‌های مالی و قراردادها و خروجی ورد استاندارد.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
